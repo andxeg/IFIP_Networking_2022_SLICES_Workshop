@@ -1,0 +1,396 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,256,36.332733,43.074106,1,S,,,,,,"mref(ref) iteration #1"
+104.milc,256,36.807754,42.518215,0,S,,,,,,"mref(ref) iteration #2"
+104.milc,256,35.692019,43.847337,0,S,,,,,,"mref(ref) iteration #3"
+107.leslie3d,256,123.937725,42.117927,1,S,,,,,,"mref(ref) iteration #1"
+107.leslie3d,256,123.294921,42.33751,0,S,,,,,,"mref(ref) iteration #2"
+107.leslie3d,256,125.935896,41.449659,0,S,,,,,,"mref(ref) iteration #3"
+113.GemsFDTD,256,183.890537,34.303016,0,S,,,,,,"mref(ref) iteration #1"
+113.GemsFDTD,256,194.093918,32.49973,1,S,,,,,,"mref(ref) iteration #2"
+113.GemsFDTD,256,236.293942,26.695564,0,S,,,,,,"mref(ref) iteration #3"
+115.fds4,256,24.994443,78.057351,0,S,,,,,,"mref(ref) iteration #1"
+115.fds4,256,24.877818,78.423277,1,S,,,,,,"mref(ref) iteration #2"
+115.fds4,256,24.667276,79.092641,0,S,,,,,,"mref(ref) iteration #3"
+121.pop2,256,164.432577,25.104514,1,S,,,,,,"mref(ref) iteration #1"
+121.pop2,256,163.842312,25.194957,0,S,,,,,,"mref(ref) iteration #2"
+121.pop2,256,174.458362,23.661806,0,S,,,,,,"mref(ref) iteration #3"
+122.tachyon,256,71.51341,39.111546,1,S,,,,,,"mref(ref) iteration #1"
+122.tachyon,256,72.042438,38.824339,0,S,,,,,,"mref(ref) iteration #2"
+122.tachyon,256,71.282635,39.238168,0,S,,,,,,"mref(ref) iteration #3"
+126.lammps,256,95.034606,30.673037,1,S,,,,,,"mref(ref) iteration #1"
+126.lammps,256,94.855864,30.730836,0,S,,,,,,"mref(ref) iteration #2"
+126.lammps,256,95.141711,30.638507,0,S,,,,,,"mref(ref) iteration #3"
+127.wrf2,256,75.281751,103.557634,1,S,,,,,,"mref(ref) iteration #1"
+127.wrf2,256,77.511418,100.57873,0,S,,,,,,"mref(ref) iteration #2"
+127.wrf2,256,75.279294,103.561014,0,S,,,,,,"mref(ref) iteration #3"
+128.GAPgeofem,256,19.345489,106.743231,1,S,,,,,,"mref(ref) iteration #1"
+128.GAPgeofem,256,19.436779,106.241883,0,S,,,,,,"mref(ref) iteration #2"
+128.GAPgeofem,256,19.322084,106.87253,0,S,,,,,,"mref(ref) iteration #3"
+129.tera_tf,256,44.278863,62.512897,1,S,,,,,,"mref(ref) iteration #1"
+129.tera_tf,256,44.259376,62.540421,0,S,,,,,,"mref(ref) iteration #2"
+129.tera_tf,256,45.785061,60.456401,0,S,,,,,,"mref(ref) iteration #3"
+130.socorro,256,85.629603,44.575706,1,S,,,,,,"mref(ref) iteration #1"
+130.socorro,256,85.584949,44.598963,0,S,,,,,,"mref(ref) iteration #2"
+130.socorro,256,95.310708,40.047966,0,S,,,,,,"mref(ref) iteration #3"
+132.zeusmp2,256,51.493463,60.260076,1,S,,,,,,"mref(ref) iteration #1"
+132.zeusmp2,256,51.445817,60.315885,0,S,,,,,,"mref(ref) iteration #2"
+132.zeusmp2,256,51.546765,60.197764,0,S,,,,,,"mref(ref) iteration #3"
+137.lu,256,45.824734,80.218687,0,S,,,,,,"mref(ref) iteration #1"
+137.lu,256,46.21512,79.541068,0,S,,,,,,"mref(ref) iteration #2"
+137.lu,256,46.064841,79.800558,1,S,,,,,,"mref(ref) iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,256,36.332733,43.074106,1,S,,,,,NR,"SelectedIteration (base #1)"
+107.leslie3d,256,123.937725,42.117927,1,S,,,,,NR,"SelectedIteration (base #1)"
+113.GemsFDTD,256,194.093918,32.49973,1,S,,,,,NR,"SelectedIteration (base #2)"
+115.fds4,256,24.877818,78.423277,1,S,,,,,NR,"SelectedIteration (base #2)"
+121.pop2,256,164.432577,25.104514,1,S,,,,,NR,"SelectedIteration (base #1)"
+122.tachyon,256,71.51341,39.111546,1,S,,,,,NR,"SelectedIteration (base #1)"
+126.lammps,256,95.034606,30.673037,1,S,,,,,NR,"SelectedIteration (base #1)"
+127.wrf2,256,75.281751,103.557634,1,S,,,,,NR,"SelectedIteration (base #1)"
+128.GAPgeofem,256,19.345489,106.743231,1,S,,,,,NR,"SelectedIteration (base #1)"
+129.tera_tf,256,44.278863,62.512897,1,S,,,,,NR,"SelectedIteration (base #1)"
+130.socorro,256,85.629603,44.575706,1,S,,,,,NR,"SelectedIteration (base #1)"
+132.zeusmp2,256,51.493463,60.260076,1,S,,,,,NR,"SelectedIteration (base #1)"
+137.lu,256,46.064841,79.800558,1,S,,,,,NR,"SelectedIteration (base #3)"
+
+SPECmpiM_base2007,52.059017,,52.059017
+SPECmpiM_peak2007,"Not Run",,,,,,,"Not Run"
+
+"Run number:",943
+
+"System Vendor:","Lenovo Global Technology"
+"System Name:","ThinkSystem SR665 (AMD EPYC 7H12, 2.6 GHz)"
+"Date tested:",Jan-2020
+"MPI2007 License:",28
+"Test sponsor:","Lenovo Global Technology"
+"Tested by:","Lenovo Global Technology"
+"Hardware avail:",Jun-2020
+"Software avail:",Jun-2020
+
+
+"Node Description: ThinkSystem SR665"
+
+HARDWARE
+
+"Number of nodes",2
+"Uses of the node",compute
+Vendor,"Lenovo Global Technology"
+Model,SR665
+"CPU Name","AMD EPYC 7H12"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2600
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"16 MB shared / 4 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gbs/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband Adapter"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",4.7-1.0.0.1.2
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.1,"
+,4.18.0-147.el8.x86_64
+"Local File System",xfs
+"Shared File System",None
+"System State","Multi-user, run level 3"
+"Other Software",None
+
+
+"Node Description: NFS"
+
+HARDWARE
+
+"Number of nodes",1
+"Uses of the node",Fileserver
+Vendor,"Lenovo Global Technology"
+Model,"ThinkSystem SR665"
+"CPU Name","AMD EPYC 7H12 CPU"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2600
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"16 MB shared / 4 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gb/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",4.7-1.0.0.1.2
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.1"
+"Local File System",None
+"Shared File System",NFS
+"System State","Multi-User, run level 3"
+"Other Software",None
+
+
+"BENCHMARK DETAILS"
+
+"Type of System",Homogeneous
+"Total Compute Nodes",2
+"Total Chips",4
+"Total Cores",256
+"Total Threads",256
+"Total Memory","2 TB"
+"Base Ranks Run",256
+"Minimum Peak Ranks",--
+"Maximum Peak Ranks",--
+"C Compiler","Intel C Compiler 20.0 for Linux"
+,"Version 19.1.0.166 Build 20191121"
+"C++ Compiler","Intel C++ Compiler 20.0 for Linux"
+,"Version 19.1.0.166 Build 20191121"
+"Fortran Compiler","Intel Fortran Compiler 20.0 for Linux"
+,"Version 19.1.0.166 Build 20191121"
+"Base Pointers",64-bit
+"Peak Pointers","Not Applicable"
+"MPI Library","MPICH MPI Library"
+,"Version 3.3.2"
+"Other MPI Info",None
+Pre-processors,No
+"Other Software",None
+
+"Submit Notes"
+
+"The config file option 'submit' was used."
+
+"General Notes"
+
+" MPI startup command:"
+"   mpiexec command was used to start MPI jobs."
+" RAM configuration:"
+"   Compute nodes have 1 x 32 GB RDIMM on each memory channel."
+" Add ""idle=poll"" into grub"
+" BIOS settings:"
+"   Operating Mode : Maximum Performance Mode"
+"   Hyper-Threading Technology (SMT): Enabled"
+"   NPS4"
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5754 (Meltdown) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5753 (Spectre variant 1) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5715 (Spectre variant 2) is mitigated in the system as tested and documented."
+
+"Base Compiler Invocation"
+104.milc," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpicc"
+107.leslie3d," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+113.GemsFDTD," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+115.fds4," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+121.pop2," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+122.tachyon," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpicc"
+126.lammps," /opt/mpich/m332_I201_H47_R81/bin/mpicxx"," /opt/mpich/m332_I201_H47_R81/bin/mpicxx"
+127.wrf2," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+128.GAPgeofem," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+129.tera_tf," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+130.socorro," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+132.zeusmp2," /opt/mpich/m332_I201_H47_R81/bin/mpicc"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+137.lu," /opt/mpich/m332_I201_H47_R81/bin/mpif90"," /opt/mpich/m332_I201_H47_R81/bin/mpif90"
+
+"Base Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2," -DSPEC_MPI_CASE_FLAG"
+122.tachyon
+126.lammps," -DMPICH_IGNORE_CXX_SEEK"
+127.wrf2," -DSPEC_MPI_CASE_FLAG"," -DSPEC_MPI_LINUX"
+128.GAPgeofem
+129.tera_tf
+130.socorro," -assume nostd_intent_in"
+132.zeusmp2
+137.lu
+
+"Base Optimization Flags"
+104.milc," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+107.leslie3d," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+113.GemsFDTD," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+115.fds4," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+121.pop2," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+122.tachyon," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+126.lammps," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+127.wrf2," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+128.GAPgeofem," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+129.tera_tf," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+130.socorro," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+132.zeusmp2," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+137.lu," -O3"," -march=core-avx2"," -no-prec-div"," -ipo"
+
+"Base Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Compiler Invocation"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Optimization Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2006-2010 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC MPI2007 ","v2.0.1.  Report","generated on ","Wed May  6 11:57:40 2020","by SPEC MPI2007 CSV","formatter v1463."
+"Originally published on "," 6 May 2020."

@@ -1,0 +1,380 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+121.pop2,128,605.570567,6.425345,0,S,128,605.570567,6.425345,0,S,"lref(ref) iteration #1"
+121.pop2,128,604.497817,6.436748,0,S,128,604.497817,6.436748,0,S,"lref(ref) iteration #2"
+121.pop2,128,604.830598,6.433206,1,S,128,604.830598,6.433206,1,S,"lref(ref) iteration #3"
+122.tachyon,128,386.976153,5.023565,1,S,128,386.976153,5.023565,1,S,"lref(ref) iteration #1"
+122.tachyon,128,384.107888,5.061078,0,S,128,384.107888,5.061078,0,S,"lref(ref) iteration #2"
+122.tachyon,128,387.77645,5.013198,0,S,128,387.77645,5.013198,0,S,"lref(ref) iteration #3"
+125.RAxML,128,461.503151,6.324984,0,S,128,461.503151,6.324984,0,S,"lref(ref) iteration #1"
+125.RAxML,128,462.411773,6.312556,1,S,128,462.411773,6.312556,1,S,"lref(ref) iteration #2"
+125.RAxML,128,464.092517,6.289694,0,S,128,464.092517,6.289694,0,S,"lref(ref) iteration #3"
+126.lammps,128,460.086849,5.344643,0,S,128,460.086849,5.344643,0,S,"lref(ref) iteration #1"
+126.lammps,128,460.197773,5.343355,1,S,128,460.197773,5.343355,1,S,"lref(ref) iteration #2"
+126.lammps,128,460.958694,5.334534,0,S,128,460.958694,5.334534,0,S,"lref(ref) iteration #3"
+128.GAPgeofem,128,708.719265,8.37285,0,S,128,708.719265,8.37285,0,S,"lref(ref) iteration #1"
+128.GAPgeofem,128,710.937555,8.346725,1,S,128,710.937555,8.346725,1,S,"lref(ref) iteration #2"
+128.GAPgeofem,128,711.172865,8.343963,0,S,128,711.172865,8.343963,0,S,"lref(ref) iteration #3"
+129.tera_tf,128,179.563349,6.120403,0,S,128,179.563349,6.120403,0,S,"lref(ref) iteration #1"
+129.tera_tf,128,176.426008,6.22924,0,S,128,176.426008,6.22924,0,S,"lref(ref) iteration #2"
+129.tera_tf,128,176.811305,6.215666,1,S,128,176.811305,6.215666,1,S,"lref(ref) iteration #3"
+132.zeusmp2,128,363.430192,5.833307,0,S,128,363.430192,5.833307,0,S,"lref(ref) iteration #1"
+132.zeusmp2,128,363.684824,5.829223,0,S,128,363.684824,5.829223,0,S,"lref(ref) iteration #2"
+132.zeusmp2,128,363.669272,5.829472,1,S,128,363.669272,5.829472,1,S,"lref(ref) iteration #3"
+137.lu,128,396.625649,10.594373,0,S,128,396.625649,10.594373,0,S,"lref(ref) iteration #1"
+137.lu,128,387.579463,10.841648,1,S,128,387.579463,10.841648,1,S,"lref(ref) iteration #2"
+137.lu,128,384.609535,10.925366,0,S,128,384.609535,10.925366,0,S,"lref(ref) iteration #3"
+142.dmilc,128,460.612211,7.998051,1,S,128,460.612211,7.998051,1,S,"lref(ref) iteration #1"
+142.dmilc,128,460.456851,8.00075,0,S,128,460.456851,8.00075,0,S,"lref(ref) iteration #2"
+142.dmilc,128,460.844189,7.994025,0,S,128,460.844189,7.994025,0,S,"lref(ref) iteration #3"
+143.dleslie,128,405.695456,7.6412,1,S,128,405.695456,7.6412,1,S,"lref(ref) iteration #1"
+143.dleslie,128,406.181715,7.632052,0,S,128,406.181715,7.632052,0,S,"lref(ref) iteration #2"
+143.dleslie,128,403.992204,7.673415,0,S,128,403.992204,7.673415,0,S,"lref(ref) iteration #3"
+145.lGemsFDTD,128,899.447873,4.90412,0,S,128,899.447873,4.90412,0,S,"lref(ref) iteration #1"
+145.lGemsFDTD,128,898.704003,4.908179,0,S,128,898.704003,4.908179,0,S,"lref(ref) iteration #2"
+145.lGemsFDTD,128,899.322812,4.904802,1,S,128,899.322812,4.904802,1,S,"lref(ref) iteration #3"
+147.l2wrf2,128,1495.068853,5.487373,0,S,128,1495.068853,5.487373,0,S,"lref(ref) iteration #1"
+147.l2wrf2,128,1494.61874,5.489025,0,S,128,1494.61874,5.489025,0,S,"lref(ref) iteration #2"
+147.l2wrf2,128,1495.05364,5.487429,1,S,128,1495.05364,5.487429,1,S,"lref(ref) iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+121.pop2,128,604.830598,6.433206,1,S,128,604.830598,6.433206,1,S,"SelectedIteration (base #3; peak #3)"
+122.tachyon,128,386.976153,5.023565,1,S,128,386.976153,5.023565,1,S,"SelectedIteration (base #1; peak #1)"
+125.RAxML,128,462.411773,6.312556,1,S,128,462.411773,6.312556,1,S,"SelectedIteration (base #2; peak #2)"
+126.lammps,128,460.197773,5.343355,1,S,128,460.197773,5.343355,1,S,"SelectedIteration (base #2; peak #2)"
+128.GAPgeofem,128,710.937555,8.346725,1,S,128,710.937555,8.346725,1,S,"SelectedIteration (base #2; peak #2)"
+129.tera_tf,128,176.811305,6.215666,1,S,128,176.811305,6.215666,1,S,"SelectedIteration (base #3; peak #3)"
+132.zeusmp2,128,363.669272,5.829472,1,S,128,363.669272,5.829472,1,S,"SelectedIteration (base #3; peak #3)"
+137.lu,128,387.579463,10.841648,1,S,128,387.579463,10.841648,1,S,"SelectedIteration (base #2; peak #2)"
+142.dmilc,128,460.612211,7.998051,1,S,128,460.612211,7.998051,1,S,"SelectedIteration (base #1; peak #1)"
+143.dleslie,128,405.695456,7.6412,1,S,128,405.695456,7.6412,1,S,"SelectedIteration (base #1; peak #1)"
+145.lGemsFDTD,128,899.322812,4.904802,1,S,128,899.322812,4.904802,1,S,"SelectedIteration (base #3; peak #3)"
+147.l2wrf2,128,1495.05364,5.487429,1,S,128,1495.05364,5.487429,1,S,"SelectedIteration (base #3; peak #3)"
+
+SPECmpiL_base2007,6.517939,,6.517939
+SPECmpiL_peak2007,6.517939,,,,,,,6.517939
+
+"Run number:",182
+
+"System Vendor:","Lenovo Global Technology"
+"System Name:","ThinkSystem SR665 (AMD EPYC 7763, 2.45 GHz)"
+"Date tested:",Mar-2021
+"MPI2007 License:",28
+"Test sponsor:","Lenovo Global Technology"
+"Tested by:","Lenovo Global Technology"
+"Hardware avail:",Mar-2021
+"Software avail:",Jun-2020
+
+
+"Node Description: ThinkSystem SR665"
+
+HARDWARE
+
+"Number of nodes",1
+"Uses of the node",compute
+Vendor,"Lenovo Global Technology"
+Model,SR665
+"CPU Name","AMD EPYC 7763"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2450
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"32 MB shared / 8 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gbs/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband Adapter"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",5.2-1.0.4
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.3,"
+,4.18.0-240.el8.x86_64
+"Local File System",xfs
+"Shared File System",None
+"System State","Multi-user, run level 3"
+"Other Software",None
+
+
+"Node Description: NFS"
+
+HARDWARE
+
+"Number of nodes",1
+"Uses of the node",Fileserver
+Vendor,"Lenovo Global Technology"
+Model,"ThinkSystem SR665"
+"CPU Name","AMD EPYC 7763 CPU"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2450
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"32 MB shared / 8 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gb/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",5.2-1.0.4
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.3"
+"Local File System",None
+"Shared File System",NFS
+"System State","Multi-User, run level 3"
+"Other Software",None
+
+
+"BENCHMARK DETAILS"
+
+"Type of System",Homogeneous
+"Total Compute Nodes",1
+"Total Chips",2
+"Total Cores",128
+"Total Threads",128
+"Total Memory","1 TB"
+"Base Ranks Run",128
+"Minimum Peak Ranks",128
+"Maximum Peak Ranks",128
+"C Compiler","Intel C++ Compiler 20.2 for Linux"
+,"Version 19.1.2.254 Build 20200623"
+"C++ Compiler","Intel C++ Compiler 20.2 for Linux"
+,"Version 19.1.2.254 Build 20200623"
+"Fortran Compiler","Intel Fortran Compiler  20.2 for Linux"
+,"Version 19.1.2.254 Build 20200623"
+"Base Pointers",64-bit
+"Peak Pointers","Not Applicable"
+"MPI Library","Intel MPI Library for Linux"
+,"Version 4.1.0"
+"Other MPI Info",None
+Pre-processors,No
+"Other Software",None
+
+"Submit Notes"
+
+"The config file option 'submit' was used."
+
+"General Notes"
+
+" MPI startup command:"
+"   mpiexec command was used to start MPI jobs."
+" RAM configuration:"
+"   Compute nodes have 1 x 32 GB RDIMM on each memory channel."
+" Add ""idle=poll"" into grub"
+" BIOS settings:"
+"   Operating Mode : Maximum Performance Mode"
+"   Hyper-Threading Technology (SMT): Enabled"
+"   NPS4"
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5754 (Meltdown) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5753 (Spectre variant 1) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5715 (Spectre variant 2) is mitigated in the system as tested and documented."
+
+"Base Compiler Invocation"
+121.pop2," mpiicc"," mpiifort"," mpiifort"
+122.tachyon," mpiicc"," mpiicc"
+125.RAxML," mpiicc"," mpiicc"
+126.lammps," mpiicpc"," mpiicpc"
+128.GAPgeofem," mpiicc"," mpiifort"," mpiicc"," mpiifort"
+129.tera_tf," mpiifort"," mpiifort"
+132.zeusmp2," mpiicc"," mpiifort"," mpiifort"
+137.lu," mpiifort"," mpiifort"
+142.dmilc," mpiicc"," mpiicc"
+143.dleslie," mpiifort"," mpiifort"
+145.lGemsFDTD," mpiifort"," mpiifort"
+147.l2wrf2," mpiicc"," mpiifort"," mpiifort"
+
+"Base Portability Flags"
+121.pop2," -DSPEC_MPI_CASE_FLAG"
+122.tachyon
+125.RAxML
+126.lammps," -DMPICH_IGNORE_CXX_SEEK"
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Base Optimization Flags"
+121.pop2," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+122.tachyon," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+125.RAxML," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+126.lammps," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+128.GAPgeofem," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+129.tera_tf," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+132.zeusmp2," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+137.lu," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+142.dmilc," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+143.dleslie," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+145.lGemsFDTD," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+147.l2wrf2," -O3"," -ipo"," -march=core-avx2"," -no-prec-div"
+
+"Base Other Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Base Forbidden Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Base Unknown Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Compiler Invocation"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Portability Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Optimization Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Other Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Forbidden Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+
+"Peak Unknown Flags"
+121.pop2
+122.tachyon
+125.RAxML
+126.lammps
+128.GAPgeofem
+129.tera_tf
+132.zeusmp2
+137.lu
+142.dmilc
+143.dleslie
+145.lGemsFDTD
+147.l2wrf2
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2006-2010 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC MPI2007 ","v2.0.1.  Report","generated on ","Mon Mar 15 11:03:01 2021","by SPEC MPI2007 CSV","formatter v1463."
+"Originally published on ","15 March 2021."

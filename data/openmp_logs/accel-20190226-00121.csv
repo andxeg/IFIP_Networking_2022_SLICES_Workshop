@@ -1,0 +1,446 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+503.postencil,109,47.45524,2.296901,0,S,,,,,,,,,,,,"ref iteration #1"
+503.postencil,109,47.617147,2.289091,1,S,,,,,,,,,,,,"ref iteration #2"
+503.postencil,109,47.816336,2.279556,0,S,,,,,,,,,,,,"ref iteration #3"
+504.polbm,122,31.063983,3.927378,0,S,,,,,,,,,,,,"ref iteration #1"
+504.polbm,122,35.129015,3.472913,0,S,,,,,,,,,,,,"ref iteration #2"
+504.polbm,122,31.121435,3.920128,1,S,,,,,,,,,,,,"ref iteration #3"
+514.pomriq,621,214.98979,2.888509,0,S,,,,,,,,,,,,"ref iteration #1"
+514.pomriq,621,214.315083,2.897603,1,S,,,,,,,,,,,,"ref iteration #2"
+514.pomriq,621,213.534078,2.908201,0,S,,,,,,,,,,,,"ref iteration #3"
+550.pmd,241,44.688191,5.392924,1,S,,,,,,,,,,,,"ref iteration #1"
+550.pmd,241,44.297591,5.440476,0,S,,,,,,,,,,,,"ref iteration #2"
+550.pmd,241,44.726836,5.388264,0,S,,,,,,,,,,,,"ref iteration #3"
+551.ppalm,544,194.467023,2.797389,1,S,,,,,,,,,,,,"ref iteration #1"
+551.ppalm,544,195.896213,2.776981,0,S,,,,,,,,,,,,"ref iteration #2"
+551.ppalm,544,194.058977,2.803272,0,S,,,,,,,,,,,,"ref iteration #3"
+552.pep,231,74.613059,3.095973,0,S,,,,,,,,,,,,"ref iteration #1"
+552.pep,231,74.624852,3.095484,1,S,,,,,,,,,,,,"ref iteration #2"
+552.pep,231,74.625904,3.09544,0,S,,,,,,,,,,,,"ref iteration #3"
+553.pclvrleaf,1145,165.690547,6.910473,0,S,,,,,,,,,,,,"ref iteration #1"
+553.pclvrleaf,1145,164.70882,6.951662,0,S,,,,,,,,,,,,"ref iteration #2"
+553.pclvrleaf,1145,164.771945,6.948999,1,S,,,,,,,,,,,,"ref iteration #3"
+554.pcg,333,53.573805,6.215724,0,S,,,,,,,,,,,,"ref iteration #1"
+554.pcg,333,52.746271,6.313243,0,S,,,,,,,,,,,,"ref iteration #2"
+554.pcg,333,53.014676,6.28128,1,S,,,,,,,,,,,,"ref iteration #3"
+555.pseismic,282,90.963145,3.100157,0,S,,,,,,,,,,,,"ref iteration #1"
+555.pseismic,282,91.408325,3.085058,0,S,,,,,,,,,,,,"ref iteration #2"
+555.pseismic,282,90.985813,3.099384,1,S,,,,,,,,,,,,"ref iteration #3"
+556.psp,818,55.524008,14.732366,0,S,,,,,,,,,,,,"ref iteration #1"
+556.psp,818,55.284946,14.796071,1,S,,,,,,,,,,,,"ref iteration #2"
+556.psp,818,54.004613,15.146854,0,S,,,,,,,,,,,,"ref iteration #3"
+557.pcsp,859,62.570091,13.728604,0,S,,,,,,,,,,,,"ref iteration #1"
+557.pcsp,859,60.794576,14.12955,1,S,,,,,,,,,,,,"ref iteration #2"
+557.pcsp,859,60.134745,14.284587,0,S,,,,,,,,,,,,"ref iteration #3"
+559.pmniGhost,397,94.351196,4.207684,0,S,,,,,,,,,,,,"ref iteration #1"
+559.pmniGhost,397,93.799026,4.232453,0,S,,,,,,,,,,,,"ref iteration #2"
+559.pmniGhost,397,94.065287,4.220473,1,S,,,,,,,,,,,,"ref iteration #3"
+560.pilbdc,653,157.711271,4.140478,1,S,,,,,,,,,,,,"ref iteration #1"
+560.pilbdc,653,157.758697,4.139233,0,S,,,,,,,,,,,,"ref iteration #2"
+560.pilbdc,653,157.341452,4.15021,0,S,,,,,,,,,,,,"ref iteration #3"
+563.pswim,159,46.067949,3.451423,0,S,,,,,,,,,,,,"ref iteration #1"
+563.pswim,159,45.962241,3.459361,1,S,,,,,,,,,,,,"ref iteration #2"
+563.pswim,159,45.927497,3.461978,0,S,,,,,,,,,,,,"ref iteration #3"
+570.pbt,780,32.850482,23.743944,0,S,,,,,,,,,,,,"ref iteration #1"
+570.pbt,780,32.683172,23.865493,1,S,,,,,,,,,,,,"ref iteration #2"
+570.pbt,780,31.588092,24.692849,0,S,,,,,,,,,,,,"ref iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+503.postencil,109,47.617147,2.289091,1,S,,,,,NR,"SelectedIteration (base #2)"
+504.polbm,122,31.121435,3.920128,1,S,,,,,NR,"SelectedIteration (base #3)"
+514.pomriq,621,214.315083,2.897603,1,S,,,,,NR,"SelectedIteration (base #2)"
+550.pmd,241,44.688191,5.392924,1,S,,,,,NR,"SelectedIteration (base #1)"
+551.ppalm,544,194.467023,2.797389,1,S,,,,,NR,"SelectedIteration (base #1)"
+552.pep,231,74.624852,3.095484,1,S,,,,,NR,"SelectedIteration (base #2)"
+553.pclvrleaf,1145,164.771945,6.948999,1,S,,,,,NR,"SelectedIteration (base #3)"
+554.pcg,333,53.014676,6.28128,1,S,,,,,NR,"SelectedIteration (base #3)"
+555.pseismic,282,90.985813,3.099384,1,S,,,,,NR,"SelectedIteration (base #3)"
+556.psp,818,55.284946,14.796071,1,S,,,,,NR,"SelectedIteration (base #2)"
+557.pcsp,859,60.794576,14.12955,1,S,,,,,NR,"SelectedIteration (base #2)"
+559.pmniGhost,397,94.065287,4.220473,1,S,,,,,NR,"SelectedIteration (base #3)"
+560.pilbdc,653,157.711271,4.140478,1,S,,,,,NR,"SelectedIteration (base #1)"
+563.pswim,159,45.962241,3.459361,1,S,,,,,NR,"SelectedIteration (base #2)"
+570.pbt,780,32.683172,23.865493,1,S,,,,,NR,"SelectedIteration (base #2)"
+
+SPECaccel_omp_base,5.164169,,5.164169
+SPECaccel_omp_peak,"Not Run",,,,,,,"Not Run"
+
+"Run number:",404
+
+"Hardware Vendor:","Lenovo Global Technology"
+"Hardware Model:","ThinkSystem SR670"
+"Date tested:",Feb-2019
+"ACCEL License:",16
+"Test sponsor:","Lenovo Global Technology"
+"Tested by:","Lenovo Global Technology"
+"Hardware avail:",Feb-2019
+"Software avail:",Feb-2019
+
+
+HARDWARE
+
+"CPU Name","(Intel Xeon Platinum 6142 CPU, 2.6 GHz)"
+"CPU Characteristics","Intel Turbo Boost Technology up to 3.70 GHz"
+"CPU MHz",2600
+"CPU MHz Maximum",3700
+FPU,Integrated
+"CPU(s) enabled","32 cores, 2 chips, 16 cores/chip"
+"CPU(s) orderable","1,2 Chips"
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","1 MB I+D on chip per core"
+"L3 Cache","23040 KB I+D on chip per chip"
+"Other Cache",None
+Memory,"768 GB (24 x 32 GB 2Rx4 PC4-2666V)"
+"Disk Subsystem","Micron 480 GB 6 Gbps SATA 2.5"" SSD (4XB7A10153)"
+"Other Hardware",None
+
+ACCELERATOR
+
+"Accel Model Name","Intel Xeon Platinum 6142 CPU"
+"Accel Vendor",Intel
+"Accel Name","Intel Xeon Platinum 6142 CPU"
+"Type of Accel",CPU
+"Accel Connection","10.4 GT/s UPI"
+"Does Accel Use ECC",yes
+"Accel Description","2 x Intel Xeon Platinum 6142 CPU"
+"Accel Driver",None
+
+SOFTWARE
+
+"Operating System","Red Hat Enterprise Linux Server release 7.5,"
+,"kernel 3.10.0.862.el7.x86_64"
+Compiler,"Intel C/C++/Fortran 18.0 Update 5 for Linux"
+,"Version 18.0.5 Build 20180823"
+"File System",xfs
+"System State",Default
+"Other Software","FFTW 3.3.8"
+
+"Submit Notes"
+
+"The config file option 'submit' was used."
+
+"Platform Notes"
+
+" Sysinfo program /home/ACCEL1.2/Docs/sysinfo"
+" $Rev: 6965 $ $Date:: 2015-04-21 #$ c05a7f14b1b1765e3fe1df68447e8a35"
+" running on bannerrh75 Tue Feb 26 04:24:56 2019"
+
+" This section contains SUT (System Under Test) info as seen by"
+" some common utilities.  To remove or add to this section, see:"
+"   http://www.spec.org/accel/Docs/config.html#sysinfo"
+
+" From /proc/cpuinfo"
+"    model name : Intel(R) Xeon(R) Gold 6142 CPU @ 2.60GHz"
+"       2 ""physical id""s (chips)"
+"       64 ""processors"""
+"    cores, siblings (Caution: counting these is hw and system dependent.  The"
+"    following excerpts from /proc/cpuinfo might not be reliable.  Use with"
+"    caution.)"
+"       cpu cores : 16"
+"       siblings  : 32"
+"       physical 0: cores 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+"       physical 1: cores 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+"    cache size : 22528 KB"
+
+" From /proc/meminfo"
+"    MemTotal:       792040060 kB"
+"    HugePages_Total:       0"
+"    Hugepagesize:       2048 kB"
+
+" /usr/bin/lsb_release -d"
+"    Red Hat Enterprise Linux Server release 7.5 (Maipo)"
+
+" From /etc/*release* /etc/*version*"
+"    os-release:"
+"       NAME=""Red Hat Enterprise Linux Server"""
+"       VERSION=""7.5 (Maipo)"""
+"       ID=""rhel"""
+"       ID_LIKE=""fedora"""
+"       VARIANT=""Server"""
+"       VARIANT_ID=""server"""
+"       VERSION_ID=""7.5"""
+"       PRETTY_NAME=""Red Hat Enterprise Linux Server 7.5 (Maipo)"""
+"    redhat-release: Red Hat Enterprise Linux Server release 7.5 (Maipo)"
+"    system-release: Red Hat Enterprise Linux Server release 7.5 (Maipo)"
+"    system-release-cpe: cpe:/o:redhat:enterprise_linux:7.5:ga:server"
+
+" uname -a:"
+"    Linux bannerrh75 3.10.0-862.el7.x86_64 #1 SMP Wed Mar 21 18:14:51 EDT 2018"
+"    x86_64 x86_64 x86_64 GNU/Linux"
+
+" run-level 3 Feb 26 02:44"
+
+" SPEC is set to: /home/ACCEL1.2"
+"    Filesystem            Type  Size  Used Avail Use% Mounted on"
+"    /dev/mapper/rhel-home xfs   192G   67G  126G  35% /home"
+" Additional information from dmidecode:"
+
+"    Warning: Use caution when you interpret this section. The 'dmidecode' program"
+"    reads system data which is ""intended to allow hardware to be accurately"
+"    determined"", but the intent may not be met, as there are frequent changes to"
+"    hardware, firmware, and the ""DMTF SMBIOS"" standard."
+
+"   BIOS Lenovo -[G1E105G-1.10]- 12/07/2018"
+"   Memory:"
+"    24x Micron 36ASF4G72PZ-2G6D1 32 GB 2 rank 2666 MHz"
+
+" (End of data from sysinfo program)"
+
+"General Notes"
+
+"Yes: The test sponsor attests, as of date of publication,"
+"that CVE-2017-5754 (Meltdown) is mitigated in the system as tested and documented."
+"Yes: The test sponsor attests, as of date of publication,"
+"that CVE-2017-5753 (Spectre variant 1) is mitigated in the system as tested and documented."
+"Yes: The test sponsor attests, as of date of publication,"
+"that CVE-2017-5715 (Spectre variant 2) is mitigated in the system as tested and documented."
+
+"Base Runtime Environment"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Compiler Invocation"
+503.postencil," icc"," icc"
+504.polbm," icc"," icc"
+514.pomriq," icc"," icc"
+550.pmd," ifort"," ifort"
+551.ppalm," ifort"," ifort"
+552.pep," icc"," icc"
+553.pclvrleaf," icc"," ifort"," ifort"
+554.pcg," icc"," icc"
+555.pseismic," ifort"," ifort"
+556.psp," ifort"," ifort"
+557.pcsp," icc"," icc"
+559.pmniGhost," icc"," ifort"," ifort"
+560.pilbdc," ifort"," ifort"
+563.pswim," ifort"," ifort"
+570.pbt," icc"," icc"
+
+"Base Portability Flags"
+503.postencil," -DSPEC_USE_INNER_SIMD"
+504.polbm," -DSPEC_USE_INNER_SIMD"
+514.pomriq," -DSPEC_USE_INNER_SIMD"
+550.pmd," -DSPEC_USE_INNER_SIMD"," -80"
+551.ppalm," -DSPEC_USE_INNER_SIMD"
+552.pep," -DSPEC_USE_INNER_SIMD"
+553.pclvrleaf," -DSPEC_USE_INNER_SIMD"
+554.pcg," -DSPEC_USE_INNER_SIMD"
+555.pseismic," -DSPEC_USE_INNER_SIMD"
+556.psp," -DSPEC_USE_INNER_SIMD"
+557.pcsp," -DSPEC_USE_INNER_SIMD"
+559.pmniGhost," -DSPEC_USE_INNER_SIMD"," -nofor-main"
+560.pilbdc," -DSPEC_USE_INNER_SIMD"
+563.pswim," -DSPEC_USE_INNER_SIMD"
+570.pbt," -DSPEC_USE_INNER_SIMD"
+
+"Base Optimization Flags"
+503.postencil," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+504.polbm," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+514.pomriq," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+550.pmd," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+551.ppalm," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+552.pep," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+553.pclvrleaf," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+554.pcg," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+555.pseismic," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+556.psp," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+557.pcsp," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+559.pmniGhost," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+560.pilbdc," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+563.pswim," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+570.pbt," -O3"," -xCOMMON-AVX512"," -qopenmp"," -qopenmp-offload=host"
+
+"Base Other Flags"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Base Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Runtime Environment"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Compiler Invocation"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Portability Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Optimization Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Other Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2015-2019 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC ACCEL ","v1.2.  Report","generated on ","Thu Mar 21 11:47:56 2019","by SPEC ACCEL CSV","formatter v1290."
+"Originally published on ","21 March 2019."

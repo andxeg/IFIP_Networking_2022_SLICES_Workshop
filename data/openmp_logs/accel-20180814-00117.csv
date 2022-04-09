@@ -1,0 +1,454 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+503.postencil,109,48.164165,2.263093,1,S,109,48.164165,2.263093,1,S,"ref iteration #1"
+503.postencil,109,48.383372,2.25284,0,S,109,48.383372,2.25284,0,S,"ref iteration #2"
+503.postencil,109,47.837364,2.278554,0,S,109,47.837364,2.278554,0,S,"ref iteration #3"
+504.polbm,122,39.663154,3.075903,0,S,122,39.663154,3.075903,0,S,"ref iteration #1"
+504.polbm,122,39.838781,3.062343,0,S,122,39.838781,3.062343,0,S,"ref iteration #2"
+504.polbm,122,39.736532,3.070223,1,S,122,39.736532,3.070223,1,S,"ref iteration #3"
+514.pomriq,621,287.992138,2.156309,1,S,621,287.992138,2.156309,1,S,"ref iteration #1"
+514.pomriq,621,287.649254,2.158879,0,S,621,287.649254,2.158879,0,S,"ref iteration #2"
+514.pomriq,621,289.177902,2.147467,0,S,621,289.177902,2.147467,0,S,"ref iteration #3"
+550.pmd,241,83.360591,2.891054,0,S,241,83.360591,2.891054,0,S,"ref iteration #1"
+550.pmd,241,83.530575,2.885171,1,S,241,83.530575,2.885171,1,S,"ref iteration #2"
+550.pmd,241,83.83251,2.87478,0,S,241,83.83251,2.87478,0,S,"ref iteration #3"
+551.ppalm,544,180.580914,3.0125,1,S,544,180.580914,3.0125,1,S,"ref iteration #1"
+551.ppalm,544,181.183411,3.002482,0,S,544,181.183411,3.002482,0,S,"ref iteration #2"
+551.ppalm,544,179.59464,3.029044,0,S,544,179.59464,3.029044,0,S,"ref iteration #3"
+552.pep,231,85.165363,2.71237,0,S,231,85.165363,2.71237,0,S,"ref iteration #1"
+552.pep,231,85.22846,2.710362,0,S,231,85.22846,2.710362,0,S,"ref iteration #2"
+552.pep,231,85.212251,2.710878,1,S,231,85.212251,2.710878,1,S,"ref iteration #3"
+553.pclvrleaf,1145,171.331763,6.682941,0,S,1145,171.331763,6.682941,0,S,"ref iteration #1"
+553.pclvrleaf,1145,169.58377,6.751825,0,S,1145,169.58377,6.751825,0,S,"ref iteration #2"
+553.pclvrleaf,1145,170.667205,6.708963,1,S,1145,170.667205,6.708963,1,S,"ref iteration #3"
+554.pcg,333,54.204346,6.143419,0,S,333,54.204346,6.143419,0,S,"ref iteration #1"
+554.pcg,333,53.732136,6.197409,0,S,333,53.732136,6.197409,0,S,"ref iteration #2"
+554.pcg,333,54.009567,6.165574,1,S,333,54.009567,6.165574,1,S,"ref iteration #3"
+555.pseismic,282,94.13534,2.995687,1,S,282,94.13534,2.995687,1,S,"ref iteration #1"
+555.pseismic,282,94.310349,2.990128,0,S,282,94.310349,2.990128,0,S,"ref iteration #2"
+555.pseismic,282,93.936479,3.002029,0,S,282,93.936479,3.002029,0,S,"ref iteration #3"
+556.psp,818,58.924451,13.882183,0,S,818,58.924451,13.882183,0,S,"ref iteration #1"
+556.psp,818,55.849491,14.646508,0,S,818,55.849491,14.646508,0,S,"ref iteration #2"
+556.psp,818,56.643133,14.441292,1,S,818,56.643133,14.441292,1,S,"ref iteration #3"
+557.pcsp,859,61.982562,13.858737,1,S,859,61.982562,13.858737,1,S,"ref iteration #1"
+557.pcsp,859,61.542286,13.957883,0,S,859,61.542286,13.957883,0,S,"ref iteration #2"
+557.pcsp,859,63.771938,13.469874,0,S,859,63.771938,13.469874,0,S,"ref iteration #3"
+559.pmniGhost,397,95.157813,4.172017,0,S,397,95.157813,4.172017,0,S,"ref iteration #1"
+559.pmniGhost,397,93.78786,4.232957,0,S,397,93.78786,4.232957,0,S,"ref iteration #2"
+559.pmniGhost,397,94.111982,4.218379,1,S,397,94.111982,4.218379,1,S,"ref iteration #3"
+560.pilbdc,653,183.520073,3.558194,1,S,653,183.520073,3.558194,1,S,"ref iteration #1"
+560.pilbdc,653,183.409842,3.560332,0,S,653,183.409842,3.560332,0,S,"ref iteration #2"
+560.pilbdc,653,187.206069,3.488135,0,S,653,187.206069,3.488135,0,S,"ref iteration #3"
+563.pswim,159,48.779684,3.259554,1,S,159,48.779684,3.259554,1,S,"ref iteration #1"
+563.pswim,159,47.551443,3.343747,0,S,159,47.551443,3.343747,0,S,"ref iteration #2"
+563.pswim,159,48.911053,3.250799,0,S,159,48.911053,3.250799,0,S,"ref iteration #3"
+570.pbt,780,35.359233,22.059302,0,S,780,35.359233,22.059302,0,S,"ref iteration #1"
+570.pbt,780,35.429247,22.015709,1,S,780,35.429247,22.015709,1,S,"ref iteration #2"
+570.pbt,780,36.320097,21.475714,0,S,780,36.320097,21.475714,0,S,"ref iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+503.postencil,109,48.164165,2.263093,1,S,109,48.164165,2.263093,1,S,"SelectedIteration (base #1; peak #1)"
+504.polbm,122,39.736532,3.070223,1,S,122,39.736532,3.070223,1,S,"SelectedIteration (base #3; peak #3)"
+514.pomriq,621,287.992138,2.156309,1,S,621,287.992138,2.156309,1,S,"SelectedIteration (base #1; peak #1)"
+550.pmd,241,83.530575,2.885171,1,S,241,83.530575,2.885171,1,S,"SelectedIteration (base #2; peak #2)"
+551.ppalm,544,180.580914,3.0125,1,S,544,180.580914,3.0125,1,S,"SelectedIteration (base #1; peak #1)"
+552.pep,231,85.212251,2.710878,1,S,231,85.212251,2.710878,1,S,"SelectedIteration (base #3; peak #3)"
+553.pclvrleaf,1145,170.667205,6.708963,1,S,1145,170.667205,6.708963,1,S,"SelectedIteration (base #3; peak #3)"
+554.pcg,333,54.009567,6.165574,1,S,333,54.009567,6.165574,1,S,"SelectedIteration (base #3; peak #3)"
+555.pseismic,282,94.13534,2.995687,1,S,282,94.13534,2.995687,1,S,"SelectedIteration (base #1; peak #1)"
+556.psp,818,56.643133,14.441292,1,S,818,56.643133,14.441292,1,S,"SelectedIteration (base #3; peak #3)"
+557.pcsp,859,61.982562,13.858737,1,S,859,61.982562,13.858737,1,S,"SelectedIteration (base #1; peak #1)"
+559.pmniGhost,397,94.111982,4.218379,1,S,397,94.111982,4.218379,1,S,"SelectedIteration (base #3; peak #3)"
+560.pilbdc,653,183.520073,3.558194,1,S,653,183.520073,3.558194,1,S,"SelectedIteration (base #1; peak #1)"
+563.pswim,159,48.779684,3.259554,1,S,159,48.779684,3.259554,1,S,"SelectedIteration (base #1; peak #1)"
+570.pbt,780,35.429247,22.015709,1,S,780,35.429247,22.015709,1,S,"SelectedIteration (base #2; peak #2)"
+
+SPECaccel_omp_base,4.623465,,4.623465
+SPECaccel_omp_peak,4.623465,,,,,,,4.623465
+
+"Run number:",013
+
+"Hardware Vendor:",Supermicro
+"Hardware Model:","SuperServer 1029GQ-TRT"
+"Date tested:",Jul-2018
+"ACCEL License:",019
+"Test sponsor:","NVIDIA Corporation"
+"Tested by:","NVIDIA Corporation"
+"Hardware avail:",Nov-2017
+"Software avail:",Aug-2018
+
+
+HARDWARE
+
+"CPU Name","Intel Xeon Gold 6148"
+"CPU Characteristics",
+"CPU MHz",2400
+"CPU MHz Maximum",3700
+FPU,Integrated
+"CPU(s) enabled","40 cores, 2 chips, 20 cores/chip, 2 threads/core"
+"CPU(s) orderable","1,2 chips"
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","1 MB I+D on chip per core"
+"L3 Cache","28160 KB I+D on chip per chip"
+"Other Cache",None
+Memory,"384 GB (12 x 32 GB 2Rx8 PC4-2666V-R)"
+"Disk Subsystem","512GB Samsung 960 PRO M.2 PCIe 3.0 x4 NVMe Solid"
+,"State Drive"
+"Other Hardware",None
+
+ACCELERATOR
+
+"Accel Model Name","Intel Xeon CPU Gold 6148"
+"Accel Vendor","Intel Corporation"
+"Accel Name","Xeon Gold 6148"
+"Type of Accel",CPU
+"Accel Connection","Not applicable"
+"Does Accel Use ECC",Yes
+"Accel Description","Intel Xeon CPU Gold 6148"
+"Accel Driver","Not applicable"
+
+SOFTWARE
+
+"Operating System","CentOS Linux release 7.4.1708 (Core)"
+,3.10.0-693.17.1.el7.x86_64
+Compiler,"PGI Professional Edition, Release 18.7 LLVM"
+"File System",xfs
+"System State","Run level 3 (multi-user)"
+"Other Software",None
+
+"Platform Notes"
+
+" Sysinfo program /local/home/aglobus/spec-accel/Docs/sysinfo"
+" $Rev: 6965 $ $Date:: 2015-04-21 #$ c05a7f14b1b1765e3fe1df68447e8a35"
+" running on perf-sky2.pgi.net Thu Jul 26 15:28:54 2018"
+
+" This section contains SUT (System Under Test) info as seen by"
+" some common utilities.  To remove or add to this section, see:"
+"   http://www.spec.org/accel/Docs/config.html#sysinfo"
+
+" From /proc/cpuinfo"
+"    model name : Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz"
+"       2 ""physical id""s (chips)"
+"       80 ""processors"""
+"    cores, siblings (Caution: counting these is hw and system dependent.  The"
+"    following excerpts from /proc/cpuinfo might not be reliable.  Use with"
+"    caution.)"
+"       cpu cores : 20"
+"       siblings  : 40"
+"       physical 0: cores 0 1 2 3 4 8 9 10 11 12 16 17 18 19 20 24 25 26 27 28"
+"       physical 1: cores 0 1 2 3 4 8 9 10 11 12 16 17 18 19 20 24 25 26 27 28"
+"    cache size : 28160 KB"
+
+" From /proc/meminfo"
+"    MemTotal:       394873648 kB"
+"    HugePages_Total:      20"
+"    Hugepagesize:       2048 kB"
+
+" /usr/bin/lsb_release -d"
+"    CentOS Linux release 7.4.1708 (Core)"
+
+" From /etc/*release* /etc/*version*"
+"    centos-release: CentOS Linux release 7.4.1708 (Core)"
+"    centos-release-upstream: Derived from Red Hat Enterprise Linux 7.4 (Source)"
+"    os-release:"
+"       NAME=""CentOS Linux"""
+"       VERSION=""7 (Core)"""
+"       ID=""centos"""
+"       ID_LIKE=""rhel fedora"""
+"       VERSION_ID=""7"""
+"       PRETTY_NAME=""CentOS Linux 7 (Core)"""
+"       ANSI_COLOR=""0;31"""
+"       CPE_NAME=""cpe:/o:centos:centos:7"""
+"    redhat-release: CentOS Linux release 7.4.1708 (Core)"
+"    system-release: CentOS Linux release 7.4.1708 (Core)"
+"    system-release-cpe: cpe:/o:centos:centos:7"
+
+" uname -a:"
+"    Linux perf-sky2.pgi.net 3.10.0-693.17.1.el7.x86_64 #1 SMP Thu Jan 25 20:13:58"
+"    UTC 2018 x86_64 x86_64 x86_64 GNU/Linux"
+
+" run-level 3 Mar 29 15:36"
+
+" SPEC is set to: /local/home/aglobus/spec-accel"
+"    Filesystem                   Type  Size  Used Avail Use% Mounted on"
+"    /dev/mapper/centos_sky2-root xfs   472G   60G  413G  13% /"
+" Additional information from dmidecode:"
+
+"    Warning: Use caution when you interpret this section. The 'dmidecode' program"
+"    reads system data which is ""intended to allow hardware to be accurately"
+"    determined"", but the intent may not be met, as there are frequent changes to"
+"    hardware, firmware, and the ""DMTF SMBIOS"" standard."
+
+
+" (End of data from sysinfo program)"
+
+"General Notes"
+
+"Environment variables set by runspec before the start of the run:"
+"ACC_NUM_CORES = ""80"""
+"HUGETLB_PATH = ""/mnt/hugetlb"""
+"KMP_AFFINITY = ""granularity=fine,compact,1,0"""
+"OMP_PLACES = ""{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14},{15},{16},"
+"    {17},{18},{19},{20},{21},{22},{23},{24},{25},{26},{27},{28},{29},{30},{31},{32},{33},{34},"
+"    {35},{36},{37},{38},{39},{40},{41},{42},{43},{44},{45},{46},{47},{48},{49},{50},{51},{52},"
+"    {53},{54},{55},{56},{57},{58},{59},{60},{61},{62},{63},{64},{65},{66},{67},{68},{69},{70},"
+"    {71},{72},{73},{74},{75},{76},{77},{78},{79}"""
+"OMP_PROC_BIND = ""true"""
+
+"551.ppalm (base): ""advec_ws_private"" src.alt was used."
+
+"Yes: The test sponsor attests, as of date of publication, that CVE-2017-5754 (Meltdown)"
+"is mitigated in the system as tested and documented."
+"Yes: The test sponsor attests, as of date of publication, that CVE-2017-5753 (Spectre variant 1)"
+"is mitigated in the system as tested and documented."
+"Yes: The test sponsor attests, as of date of publication, that CVE-2017-5715 (Spectre variant 2)"
+"is mitigated in the system as tested and documented."
+
+"Base Runtime Environment"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Compiler Invocation"
+503.postencil," pgcc"," pgcc"
+504.polbm," pgcc"," pgcc"
+514.pomriq," pgcc"," pgcc"
+550.pmd," pgfortran"," pgfortran"
+551.ppalm," pgfortran"," pgfortran"
+552.pep," pgcc"," pgcc"
+553.pclvrleaf," pgcc"," pgfortran"," pgfortran"
+554.pcg," pgcc"," pgcc"
+555.pseismic," pgfortran"," pgfortran"
+556.psp," pgfortran"," pgfortran"
+557.pcsp," pgcc"," pgcc"
+559.pmniGhost," pgcc"," pgfortran"," pgfortran"
+560.pilbdc," pgfortran"," pgfortran"
+563.pswim," pgfortran"," pgfortran"
+570.pbt," pgcc"," pgcc"
+
+"Base Portability Flags"
+503.postencil," -DSPEC_USE_INNER_SIMD"
+504.polbm," -DSPEC_USE_INNER_SIMD"
+514.pomriq," -DSPEC_USE_INNER_SIMD"
+550.pmd," -DSPEC_USE_INNER_SIMD"
+551.ppalm," -DSPEC_USE_INNER_SIMD"
+552.pep," -DSPEC_USE_INNER_SIMD"
+553.pclvrleaf," -DSPEC_USE_INNER_SIMD"
+554.pcg," -DSPEC_USE_INNER_SIMD"
+555.pseismic," -DSPEC_USE_INNER_SIMD"
+556.psp," -DSPEC_USE_INNER_SIMD"
+557.pcsp," -DSPEC_USE_INNER_SIMD"
+559.pmniGhost," -DSPEC_USE_INNER_SIMD"
+560.pilbdc," -DSPEC_USE_INNER_SIMD"
+563.pswim," -DSPEC_USE_INNER_SIMD"
+570.pbt," -DSPEC_USE_INNER_SIMD"
+
+"Base Optimization Flags"
+503.postencil," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+504.polbm," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+514.pomriq," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+550.pmd," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+551.ppalm," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+552.pep," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+553.pclvrleaf," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+554.pcg," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+555.pseismic," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+556.psp," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+557.pcsp," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+559.pmniGhost," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"," -Mnomain"
+560.pilbdc," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+563.pswim," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+570.pbt," -V18.7"," -Mllvm"," -fast"," -mp"," -Mnouniform"," -Mhugetlb"
+
+"Base Other Flags"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Base Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Runtime Environment"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Compiler Invocation"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Portability Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Optimization Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Other Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2015-2018 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC ACCEL ","v1.2.  Report","generated on ","Thu Aug 30 18:55:49 2018","by SPEC ACCEL CSV","formatter v1290."
+"Originally published on ","30 August 2018."

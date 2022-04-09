@@ -1,0 +1,411 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,384,22.711764,68.907021,0,S,384,22.711764,68.907021,0,S,"mref(ref) iteration #1"
+104.milc,384,22.49599,69.567954,1,S,384,22.49599,69.567954,1,S,"mref(ref) iteration #2"
+104.milc,384,21.447354,72.969374,0,S,384,21.447354,72.969374,0,S,"mref(ref) iteration #3"
+107.leslie3d,384,85.042208,61.381285,0,S,384,85.042208,61.381285,0,S,"mref(ref) iteration #1"
+107.leslie3d,384,88.239524,59.157164,0,S,384,88.239524,59.157164,0,S,"mref(ref) iteration #2"
+107.leslie3d,384,85.206299,61.263076,1,S,384,85.206299,61.263076,1,S,"mref(ref) iteration #3"
+113.GemsFDTD,384,245.662186,25.677538,0,S,128,220.880523,28.558426,0,S,"mref(ref) iteration #1"
+113.GemsFDTD,384,241.41537,26.129239,1,S,128,220.371542,28.624386,1,S,"mref(ref) iteration #2"
+113.GemsFDTD,384,241.073749,26.166267,0,S,128,220.365919,28.625116,0,S,"mref(ref) iteration #3"
+115.fds4,384,26.797617,72.804981,1,S,384,26.797617,72.804981,1,S,"mref(ref) iteration #1"
+115.fds4,384,27.78811,70.209885,0,S,384,27.78811,70.209885,0,S,"mref(ref) iteration #2"
+115.fds4,384,26.704913,73.057718,0,S,384,26.704913,73.057718,0,S,"mref(ref) iteration #3"
+121.pop2,384,129.101849,31.974755,0,S,384,129.101849,31.974755,0,S,"mref(ref) iteration #1"
+121.pop2,384,131.338834,31.430156,1,S,384,131.338834,31.430156,1,S,"mref(ref) iteration #2"
+121.pop2,384,133.272786,30.974065,0,S,384,133.272786,30.974065,0,S,"mref(ref) iteration #3"
+122.tachyon,384,31.2972,89.369017,0,S,384,31.2972,89.369017,0,S,"mref(ref) iteration #1"
+122.tachyon,384,32.233767,86.772359,1,S,384,32.233767,86.772359,1,S,"mref(ref) iteration #2"
+122.tachyon,384,33.283001,84.036893,0,S,384,33.283001,84.036893,0,S,"mref(ref) iteration #3"
+126.lammps,384,94.704193,30.780052,1,S,384,94.704193,30.780052,1,S,"mref(ref) iteration #1"
+126.lammps,384,94.896743,30.717598,0,S,384,94.896743,30.717598,0,S,"mref(ref) iteration #2"
+126.lammps,384,93.33078,31.232997,0,S,384,93.33078,31.232997,0,S,"mref(ref) iteration #3"
+127.wrf2,384,52.337035,148.957617,0,S,384,52.337035,148.957617,0,S,"mref(ref) iteration #1"
+127.wrf2,384,54.332927,143.485736,1,S,384,54.332927,143.485736,1,S,"mref(ref) iteration #2"
+127.wrf2,384,57.08569,136.566625,0,S,384,57.08569,136.566625,0,S,"mref(ref) iteration #3"
+128.GAPgeofem,384,24.797309,83.275165,0,S,384,24.797309,83.275165,0,S,"mref(ref) iteration #1"
+128.GAPgeofem,384,25.060588,82.400301,1,S,384,25.060588,82.400301,1,S,"mref(ref) iteration #2"
+128.GAPgeofem,384,25.38909,81.334148,0,S,384,25.38909,81.334148,0,S,"mref(ref) iteration #3"
+129.tera_tf,384,45.607154,60.692233,1,S,384,45.607154,60.692233,1,S,"mref(ref) iteration #1"
+129.tera_tf,384,44.502738,62.19842,0,S,384,44.502738,62.19842,0,S,"mref(ref) iteration #2"
+129.tera_tf,384,46.828723,59.109022,0,S,384,46.828723,59.109022,0,S,"mref(ref) iteration #3"
+130.socorro,384,67.703797,56.377931,0,S,384,67.703797,56.377931,0,S,"mref(ref) iteration #1"
+130.socorro,384,72.612509,52.5667,0,S,384,72.612509,52.5667,0,S,"mref(ref) iteration #2"
+130.socorro,384,71.83355,53.136731,1,S,384,71.83355,53.136731,1,S,"mref(ref) iteration #3"
+132.zeusmp2,384,43.311165,71.644344,0,S,384,43.311165,71.644344,0,S,"mref(ref) iteration #1"
+132.zeusmp2,384,44.403186,69.882373,0,S,384,44.403186,69.882373,0,S,"mref(ref) iteration #2"
+132.zeusmp2,384,43.42766,71.452157,1,S,384,43.42766,71.452157,1,S,"mref(ref) iteration #3"
+137.lu,384,31.638876,116.186176,0,S,384,31.638876,116.186176,0,S,"mref(ref) iteration #1"
+137.lu,384,33.266593,110.501247,1,S,384,33.266593,110.501247,1,S,"mref(ref) iteration #2"
+137.lu,384,33.314641,110.341876,0,S,384,33.314641,110.341876,0,S,"mref(ref) iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,384,22.49599,69.567954,1,S,384,22.49599,69.567954,1,S,"SelectedIteration (base #2; peak #2)"
+107.leslie3d,384,85.206299,61.263076,1,S,384,85.206299,61.263076,1,S,"SelectedIteration (base #3; peak #3)"
+113.GemsFDTD,384,241.41537,26.129239,1,S,128,220.371542,28.624386,1,S,"SelectedIteration (base #2; peak #2)"
+115.fds4,384,26.797617,72.804981,1,S,384,26.797617,72.804981,1,S,"SelectedIteration (base #1; peak #1)"
+121.pop2,384,131.338834,31.430156,1,S,384,131.338834,31.430156,1,S,"SelectedIteration (base #2; peak #2)"
+122.tachyon,384,32.233767,86.772359,1,S,384,32.233767,86.772359,1,S,"SelectedIteration (base #2; peak #2)"
+126.lammps,384,94.704193,30.780052,1,S,384,94.704193,30.780052,1,S,"SelectedIteration (base #1; peak #1)"
+127.wrf2,384,54.332927,143.485736,1,S,384,54.332927,143.485736,1,S,"SelectedIteration (base #2; peak #2)"
+128.GAPgeofem,384,25.060588,82.400301,1,S,384,25.060588,82.400301,1,S,"SelectedIteration (base #2; peak #2)"
+129.tera_tf,384,45.607154,60.692233,1,S,384,45.607154,60.692233,1,S,"SelectedIteration (base #1; peak #1)"
+130.socorro,384,71.83355,53.136731,1,S,384,71.83355,53.136731,1,S,"SelectedIteration (base #3; peak #3)"
+132.zeusmp2,384,43.42766,71.452157,1,S,384,43.42766,71.452157,1,S,"SelectedIteration (base #3; peak #3)"
+137.lu,384,33.266593,110.501247,1,S,384,33.266593,110.501247,1,S,"SelectedIteration (base #2; peak #2)"
+
+SPECmpiM_base2007,62.114855,,62.114855
+SPECmpiM_peak2007,62.552166,,,,,,,62.552166
+
+"Run number:",1340
+
+"System Vendor:","Lenovo Global Technology"
+"System Name:","ThinkSystem SR665 (AMD EPYC 7763, 2.45 GHz)"
+"Date tested:",Mar-2021
+"MPI2007 License:",28
+"Test sponsor:","Lenovo Global Technology"
+"Tested by:","Lenovo Global Technology"
+"Hardware avail:",Mar-2021
+"Software avail:",Mar-2021
+
+
+"Node Description: ThinkSystem SR665"
+
+HARDWARE
+
+"Number of nodes",3
+"Uses of the node",compute
+Vendor,"Lenovo Global Technology"
+Model,SR665
+"CPU Name","AMD EPYC 7763"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2450
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"32 MB shared / 8 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gbs/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband Adapter"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",5.2-1.0.4
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.3"
+,4.18.0-240.el8.x86_64
+"Local File System",xfs
+"Shared File System",None
+"System State","Multi-user, run level 3"
+"Other Software",None
+
+
+"Node Description: NFS"
+
+HARDWARE
+
+"Number of nodes",1
+"Uses of the node",Fileserver
+Vendor,"Lenovo Global Technology"
+Model,"ThinkSystem SR665"
+"CPU Name","AMD EPYC 7763 CPU"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",128
+"Cores per chip",64
+"Threads per core",1
+"CPU Characteristics",None
+"CPU MHz",2450
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","512 KB I+D on chip per core"
+"L3 Cache","256 MB I+D on chip per chip"
+,"32 MB shared / 8 cores"
+"Other Cache",None
+Memory,"1 TB (16 x 64 GB 2Rx4 PC4-3200AA-R)"
+"Disk Subsystem","1 x 480 GB  SATA 2.5"" SSD"
+"Other Hardware",None
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Number of Adapters",1
+"Slot Type","PCI-Express 4.0 x16"
+"Data Rate","200 Gb/s"
+"Ports Used",1
+"Interconnect Type","Mellanox ConnectX-6 HDR Infiniband"
+
+SOFTWARE
+
+Adapter,"Mellanox ConnectX-6 HDR Infiniband"
+"Adapter Driver",5.2-1.0.4
+"Adapter Firmware",20.25.2006
+"Operating System","Red Hat Enterprise Linux Server release 8.3"
+"Local File System",None
+"Shared File System",NFS
+"System State","Multi-User, run level 3"
+"Other Software",None
+
+
+"Interconnect Description: Mellanox ConnectX-6 HDR"
+
+HARDWARE
+
+Vendor,Mellanox
+Model,"Infiniband HDR 200Gb/s Switch"
+"Switch Model","QM8700 Series"
+"Number of Switches",1
+"Number of Ports",40
+"Data Rate","200 Gb/s"
+Firmware,3.9.0606
+Topology,Mesh
+"Primary Use","MPI Traffic"
+
+
+"BENCHMARK DETAILS"
+
+"Type of System",Homogeneous
+"Total Compute Nodes",3
+"Total Chips",6
+"Total Cores",384
+"Total Threads",384
+"Total Memory","3 TB"
+"Base Ranks Run",384
+"Minimum Peak Ranks",128
+"Maximum Peak Ranks",384
+"C Compiler","AMD Optimizing C Compiler for Linux"
+,"Version 2.3.0 Build 2020_11_10"
+"C++ Compiler","AMD Optimizing C++ Compiler for Linux"
+,"Version 2.3.0 Build 2020_11_10"
+"Fortran Compiler","AMD Optimizing Fortran Compiler for Linux"
+,"Version 2.3.0 Build 2020_11_10"
+"Base Pointers",64-bit
+"Peak Pointers","Not Applicable"
+"MPI Library","Open MPI Library"
+,"Version 4.1.0"
+"Other MPI Info",None
+Pre-processors,No
+"Other Software",None
+
+"Submit Notes"
+
+"The config file option 'submit' was used."
+
+"General Notes"
+
+" MPI startup command:"
+"   mpiexec command was used to start MPI jobs."
+" RAM configuration:"
+"   Compute nodes have 1 x 64 GB RDIMM on each memory channel."
+" Add ""idle=poll"" into grub"
+" BIOS settings:"
+"   Operating Mode : Maximum Performance Mode"
+"   Hyper-Threading Technology (SMT): Enabled"
+"   NPS4"
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5754 (Meltdown) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5753 (Spectre variant 1) is mitigated in the system as tested and documented."
+" Yes: The test sponsor attests, as of date of publication,"
+" that CVE-2017-5715 (Spectre variant 2) is mitigated in the system as tested and documented."
+
+"Base Compiler Invocation"
+104.milc," mpicc"," mpicc"
+107.leslie3d," mpifort"," mpifort"
+113.GemsFDTD," mpifort"," mpifort"
+115.fds4," mpicc"," mpifort"," mpifort"
+121.pop2," mpicc"," mpifort"," mpifort"
+122.tachyon," mpicc"," mpicc"
+126.lammps," mpicxx"," mpicxx"
+127.wrf2," mpicc"," mpifort"," mpifort"
+128.GAPgeofem," mpicc"," mpifort"," mpicc"," mpifort"
+129.tera_tf," mpifort"," mpifort"
+130.socorro," mpicc"," mpifort"," mpifort"
+132.zeusmp2," mpicc"," mpifort"," mpifort"
+137.lu," mpifort"," mpifort"
+
+"Base Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2," -DSPEC_MPI_CASE_FLAG"
+122.tachyon
+126.lammps," -DMPICH_IGNORE_CXX_SEEK"
+127.wrf2," -DSPEC_MPI_CASE_FLAG"," -DSPEC_MPI_LINUX"," -Wno-return-type"
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Optimization Flags"
+104.milc," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+107.leslie3d," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+113.GemsFDTD," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+115.fds4," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+121.pop2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+122.tachyon," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+126.lammps," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+127.wrf2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+128.GAPgeofem," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+129.tera_tf," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+130.socorro," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+132.zeusmp2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+137.lu," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+
+"Base Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Compiler Invocation"
+104.milc," mpicc"," mpicc"
+107.leslie3d," mpifort"," mpifort"
+113.GemsFDTD," mpifort"," mpifort"
+115.fds4," mpicc"," mpifort"," mpifort"
+121.pop2," mpicc"," mpifort"," mpifort"
+122.tachyon," mpicc"," mpicc"
+126.lammps," mpicxx"," mpicxx"
+127.wrf2," mpicc"," mpifort"," mpifort"
+128.GAPgeofem," mpicc"," mpifort"," mpicc"," mpifort"
+129.tera_tf," mpifort"," mpifort"
+130.socorro," mpicc"," mpifort"," mpifort"
+132.zeusmp2," mpicc"," mpifort"," mpifort"
+137.lu," mpifort"," mpifort"
+
+"Peak Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2," -DSPEC_MPI_CASE_FLAG"
+122.tachyon
+126.lammps," -DMPICH_IGNORE_CXX_SEEK"
+127.wrf2," -DSPEC_MPI_CASE_FLAG"," -DSPEC_MPI_LINUX"," -Wno-return-type"
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Optimization Flags"
+104.milc," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+107.leslie3d," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+113.GemsFDTD," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+115.fds4," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+121.pop2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+122.tachyon," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+126.lammps," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -L/home/amd-libm/lib"," -lamdlibm"
+127.wrf2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+128.GAPgeofem," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+129.tera_tf," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+130.socorro," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+132.zeusmp2," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+137.lu," -Ofast"," -flto"," -ffast-math"," -march=znver2"," -mno-avx2"," -funroll-loops"," -L/home/amd-libm/lib"," -lamdlibm"," -L/home/amd-libm/lib"," -lamdlibm"
+
+"Peak Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2006-2010 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC MPI2007 ","v2.0.1.  Report","generated on ","Mon Mar 15 11:03:16 2021","by SPEC MPI2007 CSV","formatter v1463."
+"Originally published on ","15 March 2021."

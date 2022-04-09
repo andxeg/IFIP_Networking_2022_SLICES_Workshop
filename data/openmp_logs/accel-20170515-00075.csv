@@ -1,0 +1,438 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Base Energy","Ref Power","Base Energy Ratio","Base Max Power","Base Avg Power","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status","Peak Energy","Ref Power","Peak Energy Ratio","Peak Max Power","Peak Avg Power",Description
+503.postencil,109,520.757835,0.20931,1,S,112370.332025,327,0.317192,220.66,215.782316602317,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+503.postencil,109,519.9137,0.20965,0,S,112291.282108,327,0.317416,220.85,215.980617760618,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+503.postencil,109,521.637274,0.208957,0,S,112414.67834,327,0.317067,219.94,215.503538461539,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+504.polbm,122,268.351695,0.454627,1,S,57877.377301,322,0.678745,222.77,215.677330827068,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+504.polbm,122,268.076954,0.455093,0,S,57879.164831,322,0.678724,223.24,215.905037593985,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+504.polbm,122,269.462778,0.452753,0,S,58194.432975,322,0.675047,223.32,215.964644194756,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+514.pomriq,621,19732.295306,0.031471,1,S,3966374.24778,298,0.046657,202.8,201.009268626454,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+514.pomriq,621,19735.013189,0.031467,0,S,3976722.349538,298,0.046535,203.57,201.505938275983,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+514.pomriq,621,19727.366641,0.031479,0,S,3959851.23308,298,0.046734,202.26,200.728830418247,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+550.pmd,241,1337.572803,0.180177,0,S,274824.666286,306,0.268338,206.83,205.465202095809,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+550.pmd,241,1327.794492,0.181504,0,S,274021.10493,306,0.269125,207.72,206.373129713424,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+550.pmd,241,1328.574155,0.181397,1,S,272675.868754,306,0.270453,206.53,205.239480030143,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+551.ppalm,544,686.962122,0.791892,0,S,128937.745891,287,1.210879,207.45,187.692656934307,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+551.ppalm,544,689.21022,0.789309,1,S,129960.09748,287,1.201353,207.86,188.563799126637,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+551.ppalm,544,691.694559,0.786474,0,S,129889.907938,287,1.202003,207.54,187.785065312046,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+552.pep,231,508.448749,0.454323,0,S,102159.492134,317,0.716791,205.39,200.923873517786,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+552.pep,231,509.978689,0.45296,1,S,102887.367273,317,0.71172,206.07,201.748366141732,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+552.pep,231,512.442984,0.450782,0,S,102875.365407,317,0.711803,204.91,200.754754420432,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+553.pclvrleaf,1145,1322.345156,0.865886,0,S,288272.145607,302,1.199526,225.1,218.000681818182,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+553.pclvrleaf,1145,1312.400087,0.872447,0,S,287368.753346,302,1.203297,226.1,218.964290076336,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+553.pclvrleaf,1145,1314.557425,0.871016,1,S,286628.756113,302,1.206404,224.95,218.042019817073,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+554.pcg,333,258.300305,1.289197,0,S,51150.997512,282,1.835859,212.05,198.0291796875,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+554.pcg,333,255.588332,1.302876,1,S,50902.801138,282,1.84481,214.16,199.159330708661,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+554.pcg,333,254.876322,1.306516,0,S,50583.33137,282,1.856461,212.8,198.462261904762,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+555.pseismic,282,766.693701,0.367813,0,S,163618.78983,326,0.561867,227.25,213.4082875817,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+555.pseismic,282,757.333143,0.372359,0,S,162458.17716,326,0.565881,227.74,214.513492063492,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+555.pseismic,282,760.795984,0.370664,1,S,162540.438666,326,0.565595,227.31,213.645237467018,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+556.psp,818,486.605643,1.681033,1,S,101969.69739,278,2.230114,215,209.553051546392,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+556.psp,818,481.54235,1.698708,0,S,101251.121002,278,2.245941,214.78,210.264208333333,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+556.psp,818,488.143759,1.675736,0,S,102257.552349,278,2.223836,214.52,209.482453608248,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+557.pcsp,859,491.600072,1.747355,1,S,103070.877626,279,2.325206,214.56,209.664081632653,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+557.pcsp,859,492.531827,1.74405,0,S,103774.11868,279,2.309449,215.76,210.695254582485,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+557.pcsp,859,490.931709,1.749734,0,S,103056.696216,279,2.325526,213.95,209.920635245902,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+559.pmniGhost,397,1478.807513,0.26846,0,S,303687.970943,288,0.376492,222.79,205.360040622884,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+559.pmniGhost,397,1467.980626,0.27044,1,S,301792.122924,288,0.378857,222.88,205.583178400547,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+559.pmniGhost,397,1461.028276,0.271726,0,S,300243.867768,288,0.38081,221.5,205.501750171585,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+560.pilbdc,653,1819.199773,0.358949,0,S,361035.233136,300,0.542606,211.96,198.458266373143,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+560.pilbdc,653,1818.29551,0.359128,1,S,360383.855888,300,0.543587,212.27,198.198727272727,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+560.pilbdc,653,1809.731103,0.360827,0,S,359403.473287,300,0.54507,211.79,198.594958494743,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+563.pswim,159,552.864721,0.287593,1,S,116858.755198,328,0.446282,214.96,211.369528130671,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+563.pswim,159,559.968175,0.283945,0,S,118270.296196,328,0.440956,214.99,211.208960573477,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+563.pswim,159,542.448771,0.293115,0,S,114764.960594,328,0.454424,215.8,211.568293135436,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+570.pbt,780,560.519104,1.391567,0,S,112151.264021,268,1.863911,208.25,200.084641577061,,,,,,,,,,,,,,,,,,,,,,"ref iteration #1"
+570.pbt,780,555.742674,1.403527,1,S,111305.306398,268,1.878078,208.59,200.282093862816,,,,,,,,,,,,,,,,,,,,,,"ref iteration #2"
+570.pbt,780,555.695346,1.403647,0,S,111259.824914,268,1.878845,208.41,200.217305605787,,,,,,,,,,,,,,,,,,,,,,"ref iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base Ref Time","Base Run Time","Base Ratio","Base Selected","Base Status","Base Energy","Ref Power","Base Energy Ratio","Base Max Power","Base Avg Power","Peak Ref Time","Peak Run Time","Peak Ratio","Peak Selected","Peak Status","Peak Energy","Ref Power","Peak Energy Ratio","Peak Max Power","Peak Avg Power",Description
+503.postencil,109,520.757835,0.20931,1,S,112370.332025,327,0.317192,220.66,215.782316602317,,,,,NR,"SelectedIteration (base #1)"
+504.polbm,122,268.351695,0.454627,1,S,57877.377301,322,0.678745,222.77,215.677330827068,,,,,NR,"SelectedIteration (base #1)"
+514.pomriq,621,19732.295306,0.031471,1,S,3966374.24778,298,0.046657,202.8,201.009268626454,,,,,NR,"SelectedIteration (base #1)"
+550.pmd,241,1328.574155,0.181397,1,S,272675.868754,306,0.270453,206.53,205.239480030143,,,,,NR,"SelectedIteration (base #3)"
+551.ppalm,544,689.21022,0.789309,1,S,129960.09748,287,1.201353,207.86,188.563799126637,,,,,NR,"SelectedIteration (base #2)"
+552.pep,231,509.978689,0.45296,1,S,102887.367273,317,0.71172,206.07,201.748366141732,,,,,NR,"SelectedIteration (base #2)"
+553.pclvrleaf,1145,1314.557425,0.871016,1,S,286628.756113,302,1.206404,224.95,218.042019817073,,,,,NR,"SelectedIteration (base #3)"
+554.pcg,333,255.588332,1.302876,1,S,50902.801138,282,1.84481,214.16,199.159330708661,,,,,NR,"SelectedIteration (base #2)"
+555.pseismic,282,760.795984,0.370664,1,S,162540.438666,326,0.565595,227.31,213.645237467018,,,,,NR,"SelectedIteration (base #3)"
+556.psp,818,486.605643,1.681033,1,S,101969.69739,278,2.230114,215,209.553051546392,,,,,NR,"SelectedIteration (base #1)"
+557.pcsp,859,491.600072,1.747355,1,S,103070.877626,279,2.325206,214.56,209.664081632653,,,,,NR,"SelectedIteration (base #1)"
+559.pmniGhost,397,1467.980626,0.27044,1,S,301792.122924,288,0.378857,222.88,205.583178400547,,,,,NR,"SelectedIteration (base #2)"
+560.pilbdc,653,1818.29551,0.359128,1,S,360383.855888,300,0.543587,212.27,198.198727272727,,,,,NR,"SelectedIteration (base #2)"
+563.pswim,159,552.864721,0.287593,1,S,116858.755198,328,0.446282,214.96,211.369528130671,,,,,NR,"SelectedIteration (base #1)"
+570.pbt,780,555.742674,1.403527,1,S,111305.306398,268,1.878078,208.59,200.282093862816,,,,,NR,"SelectedIteration (base #2)"
+
+SPECaccel_omp_base,0.462273,,0.462273
+SPECaccel_omp_energy_base,0.672751811414662,,,,,,,0.672751811414662
+SPECaccel_omp_peak,"Not Run",,,,,,,,,,,,"Not Run"
+SPECaccel_omp_energy_peak,--,,,,,,,,,,,,,,,,,--
+
+"Run number:",003
+
+"Hardware Vendor:",HP
+"Hardware Model:","HP Z820 Workstation"
+"Date tested:",Apr-2017
+"ACCEL License:",3440A
+"Test sponsor:","Indiana University"
+"Tested by:","Indiana University"
+"Hardware avail:",Mar-2013
+"Software avail:",Nov-2016
+
+
+HARDWARE
+
+"CPU Name","Intel Xeon E5-2640 v2"
+"CPU Characteristics","Hyperthreading is on, Turbo is off"
+"CPU MHz",2000
+"CPU MHz Maximum",2000
+FPU,Integrated
+"CPU(s) enabled","16 cores, 2 chips, 8 cores/chip, 2 threads/core"
+"CPU(s) orderable","1 to 2 chips"
+"Primary Cache","32 KB I + 32 KB D on chip per chip"
+"Secondary Cache","256 KB I+D on chip per core"
+"L3 Cache","20 MB I+D off chip per chip"
+"Other Cache",None
+Memory,"64 GB (4 x 16 GB 2Rx4 PC3-14900R-13, ECC)"
+"Disk Subsystem","2000 GB Seagate ST2000DM001 7200 RPM SATA3"
+"Other Hardware",None
+
+ACCELERATOR
+
+"Accel Model Name","Intel Xeon E5-2640 v2"
+"Accel Vendor",Intel
+"Accel Name","Intel Xeon E5-2640 v2"
+"Type of Accel",CPU
+"Accel Connection",N/A
+"Does Accel Use ECC",Yes
+"Accel Description","Intel Xeon E5-2640 v2 @ 2.0 GHz"
+"Accel Driver"," "
+
+SOFTWARE
+
+"Operating System","Ubuntu 16.04.2 LTS"
+,4.4.0-75-generic
+Compiler,"GNU Compiler 6.2.0"
+"File System",ext4
+"System State","Run level 5 (Start the system normally with"
+,"appropriate display manager)"
+"Other Software",None
+
+"Platform Notes"
+
+" Sysinfo program /home/junjie/spec/accel-test/75/Docs/sysinfo"
+" $Rev: 6965 $ $Date:: 2015-04-21 #$ c05a7f14b1b1765e3fe1df68447e8a35"
+" running on junjie-hp Sat Apr 29 00:26:21 2017"
+
+" This section contains SUT (System Under Test) info as seen by"
+" some common utilities.  To remove or add to this section, see:"
+"   http://www.spec.org/accel/Docs/config.html#sysinfo"
+
+" From /proc/cpuinfo"
+"    model name : Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz"
+"       2 ""physical id""s (chips)"
+"       32 ""processors"""
+"    cores, siblings (Caution: counting these is hw and system dependent.  The"
+"    following excerpts from /proc/cpuinfo might not be reliable.  Use with"
+"    caution.)"
+"       cpu cores : 8"
+"       siblings  : 16"
+"       physical 0: cores 0 1 2 3 4 5 6 7"
+"       physical 1: cores 0 1 2 3 4 5 6 7"
+"    cache size : 20480 KB"
+
+" From /proc/meminfo"
+"    MemTotal:       65900660 kB"
+"    HugePages_Total:       0"
+"    Hugepagesize:       2048 kB"
+
+" /usr/bin/lsb_release -d"
+"    Ubuntu 16.04.2 LTS"
+
+" From /etc/*release* /etc/*version*"
+"    debian_version: stretch/sid"
+"    os-release:"
+"       NAME=""Ubuntu"""
+"       VERSION=""16.04.2 LTS (Xenial Xerus)"""
+"       ID=ubuntu"
+"       ID_LIKE=debian"
+"       PRETTY_NAME=""Ubuntu 16.04.2 LTS"""
+"       VERSION_ID=""16.04"""
+"       HOME_URL=""http://www.ubuntu.com/"""
+"       SUPPORT_URL=""http://help.ubuntu.com/"""
+
+" uname -a:"
+"    Linux junjie-hp 4.4.0-75-generic #96-Ubuntu SMP Thu Apr 20 09:56:33 UTC 2017"
+"    x86_64 x86_64 x86_64 GNU/Linux"
+
+" run-level 5 Apr 24 20:51"
+
+" SPEC is set to: /home/junjie/spec/accel-test/75"
+"    Filesystem     Type  Size  Used Avail Use% Mounted on"
+"    /dev/sda2      ext4  1.8T  238G  1.5T  15% /"
+" Additional information from dmidecode:"
+
+"    Warning: Use caution when you interpret this section. The 'dmidecode' program"
+"    reads system data which is ""intended to allow hardware to be accurately"
+"    determined"", but the intent may not be met, as there are frequent changes to"
+"    hardware, firmware, and the ""DMTF SMBIOS"" standard."
+
+
+" (End of data from sysinfo program)"
+
+"General Notes"
+
+"BIOS settings:"
+"  Intel Hyper-Threading Technology (HT) : on"
+"  Intel Turbo Boost Technology (Turbo)  : off"
+
+"Current range for power measurement is 2.5A."
+
+"Base Runtime Environment"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Compiler Invocation"
+503.postencil," gcc"," gcc"
+504.polbm," gcc"," gcc"
+514.pomriq," gcc"," gcc"
+550.pmd," gfortran"," gfortran"
+551.ppalm," gfortran"," gfortran"
+552.pep," gcc"," gcc"
+553.pclvrleaf," gcc"," gfortran"," gfortran"
+554.pcg," gcc"," gcc"
+555.pseismic," gfortran"," gfortran"
+556.psp," gfortran"," gfortran"
+557.pcsp," gcc"," gcc"
+559.pmniGhost," gcc"," gfortran"," gfortran"
+560.pilbdc," gfortran"," gfortran"
+563.pswim," gfortran"," gfortran"
+570.pbt," gcc"," gcc"
+
+"Base Portability Flags"
+503.postencil
+504.polbm," -DSPEC_NEED_EXPLICIT_SIZE"
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Base Optimization Flags"
+503.postencil," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+504.polbm," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+514.pomriq," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+550.pmd," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+551.ppalm," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+552.pep," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+553.pclvrleaf," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+554.pcg," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+555.pseismic," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+556.psp," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+557.pcsp," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+559.pmniGhost," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+560.pilbdc," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+563.pswim," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+570.pbt," -Ofast"," -fopenmp"," -fopenmp-simd"," -m64"," -march=ivybridge"
+
+"Base Other Flags"
+503.postencil," No flags used"
+504.polbm," No flags used"
+514.pomriq," No flags used"
+550.pmd," No flags used"
+551.ppalm," No flags used"
+552.pep," No flags used"
+553.pclvrleaf," No flags used"
+554.pcg," No flags used"
+555.pseismic," No flags used"
+556.psp," No flags used"
+557.pcsp," No flags used"
+559.pmniGhost," No flags used"
+560.pilbdc," No flags used"
+563.pswim," No flags used"
+570.pbt," No flags used"
+
+"Base Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Base Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Runtime Environment"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Compiler Invocation"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Portability Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Optimization Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Other Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Forbidden Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+
+"Peak Unknown Flags"
+503.postencil
+504.polbm
+514.pomriq
+550.pmd
+551.ppalm
+552.pep
+553.pclvrleaf
+554.pcg
+555.pseismic
+556.psp
+557.pcsp
+559.pmniGhost
+560.pilbdc
+563.pswim
+570.pbt
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2015-2017 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC ACCEL ","v75.  Report","generated on ","Wed Jun 21 17:15:08 2017","by SPEC ACCEL CSV","formatter v1290."
+"Originally published on ","21 June 2017."

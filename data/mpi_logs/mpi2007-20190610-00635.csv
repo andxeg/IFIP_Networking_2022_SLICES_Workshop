@@ -1,0 +1,430 @@
+valid,1
+
+"Full Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,768,15.067611,103.865171,0,S,,,,,,"mref(ref) iteration #1"
+104.milc,768,14.772565,105.939625,0,S,,,,,,"mref(ref) iteration #2"
+104.milc,768,14.824545,105.568164,1,S,,,,,,"mref(ref) iteration #3"
+107.leslie3d,768,30.477151,171.275852,0,S,,,,,,"mref(ref) iteration #1"
+107.leslie3d,768,30.443449,171.46546,1,S,,,,,,"mref(ref) iteration #2"
+107.leslie3d,768,30.048895,173.71687,0,S,,,,,,"mref(ref) iteration #3"
+113.GemsFDTD,768,198.954035,31.705816,1,S,,,,,,"mref(ref) iteration #1"
+113.GemsFDTD,768,200.232355,31.5034,0,S,,,,,,"mref(ref) iteration #2"
+113.GemsFDTD,768,198.885138,31.716799,0,S,,,,,,"mref(ref) iteration #3"
+115.fds4,768,67.497797,28.904647,0,S,,,,,,"mref(ref) iteration #1"
+115.fds4,768,69.676461,28.000848,0,S,,,,,,"mref(ref) iteration #2"
+115.fds4,768,68.322669,28.555676,1,S,,,,,,"mref(ref) iteration #3"
+121.pop2,768,68.859756,59.947932,0,S,,,,,,"mref(ref) iteration #1"
+121.pop2,768,68.529483,60.236847,0,S,,,,,,"mref(ref) iteration #2"
+121.pop2,768,68.793708,60.005488,1,S,,,,,,"mref(ref) iteration #3"
+122.tachyon,768,15.838324,176.596968,0,S,,,,,,"mref(ref) iteration #1"
+122.tachyon,768,15.922587,175.66241,0,S,,,,,,"mref(ref) iteration #2"
+122.tachyon,768,15.87933,176.140933,1,S,,,,,,"mref(ref) iteration #3"
+126.lammps,768,92.938848,31.36471,0,S,,,,,,"mref(ref) iteration #1"
+126.lammps,768,92.60307,31.478438,0,S,,,,,,"mref(ref) iteration #2"
+126.lammps,768,92.76686,31.422859,1,S,,,,,,"mref(ref) iteration #3"
+127.wrf2,768,27.597572,282.488619,0,S,,,,,,"mref(ref) iteration #1"
+127.wrf2,768,27.493811,283.554724,1,S,,,,,,"mref(ref) iteration #2"
+127.wrf2,768,27.461305,283.890369,0,S,,,,,,"mref(ref) iteration #3"
+128.GAPgeofem,768,7.697953,268.253132,1,S,,,,,,"mref(ref) iteration #1"
+128.GAPgeofem,768,7.645026,270.110265,0,S,,,,,,"mref(ref) iteration #2"
+128.GAPgeofem,768,7.78871,265.127345,0,S,,,,,,"mref(ref) iteration #3"
+129.tera_tf,768,19.449216,142.319361,1,S,,,,,,"mref(ref) iteration #1"
+129.tera_tf,768,19.311969,143.330802,0,S,,,,,,"mref(ref) iteration #2"
+129.tera_tf,768,19.935089,138.850647,0,S,,,,,,"mref(ref) iteration #3"
+130.socorro,768,32.840153,116.229666,0,S,,,,,,"mref(ref) iteration #1"
+130.socorro,768,33.102223,115.309476,0,S,,,,,,"mref(ref) iteration #2"
+130.socorro,768,33.024936,115.579331,1,S,,,,,,"mref(ref) iteration #3"
+132.zeusmp2,768,25.176744,123.248662,0,S,,,,,,"mref(ref) iteration #1"
+132.zeusmp2,768,25.069897,123.773943,1,S,,,,,,"mref(ref) iteration #2"
+132.zeusmp2,768,24.908589,124.575503,0,S,,,,,,"mref(ref) iteration #3"
+137.lu,768,19.496637,188.545337,1,S,,,,,,"mref(ref) iteration #1"
+137.lu,768,19.635795,187.209125,0,S,,,,,,"mref(ref) iteration #2"
+137.lu,768,19.418768,189.301402,0,S,,,,,,"mref(ref) iteration #3"
+
+"Selected Results Table"
+
+Benchmark,"Base # Ranks","Base Run Time","Base Ratio","Base Selected","Base Status","Peak # Ranks","Peak Run Time","Peak Ratio","Peak Selected","Peak Status",Description
+104.milc,768,14.824545,105.568164,1,S,,,,,NR,"SelectedIteration (base #3)"
+107.leslie3d,768,30.443449,171.46546,1,S,,,,,NR,"SelectedIteration (base #2)"
+113.GemsFDTD,768,198.954035,31.705816,1,S,,,,,NR,"SelectedIteration (base #1)"
+115.fds4,768,68.322669,28.555676,1,S,,,,,NR,"SelectedIteration (base #3)"
+121.pop2,768,68.793708,60.005488,1,S,,,,,NR,"SelectedIteration (base #3)"
+122.tachyon,768,15.87933,176.140933,1,S,,,,,NR,"SelectedIteration (base #3)"
+126.lammps,768,92.76686,31.422859,1,S,,,,,NR,"SelectedIteration (base #3)"
+127.wrf2,768,27.493811,283.554724,1,S,,,,,NR,"SelectedIteration (base #2)"
+128.GAPgeofem,768,7.697953,268.253132,1,S,,,,,NR,"SelectedIteration (base #1)"
+129.tera_tf,768,19.449216,142.319361,1,S,,,,,NR,"SelectedIteration (base #1)"
+130.socorro,768,33.024936,115.579331,1,S,,,,,NR,"SelectedIteration (base #3)"
+132.zeusmp2,768,25.069897,123.773943,1,S,,,,,NR,"SelectedIteration (base #2)"
+137.lu,768,19.496637,188.545337,1,S,,,,,NR,"SelectedIteration (base #1)"
+
+SPECmpiM_base2007,103.628116,,103.628116
+SPECmpiM_peak2007,"Not Run",,,,,,,"Not Run"
+
+"Run number:",001
+
+"System Vendor:","Intel Corporation"
+"System Name:","Intel Server System S9248WK1HLC (Intel Xeon 9242 Platinum, 2.30 GHz, DDR4-2993 MHz, Turbo on)"
+"Date tested:",Jun-2019
+"MPI2007 License:",13
+"Test sponsor:","Intel Corporation"
+"Tested by:","Intel Corporation"
+"Hardware avail:",Jul-2019
+"Software avail:",May-2019
+
+
+"Node Description: Intel Server System S9248WK1HLC"
+
+HARDWARE
+
+"Number of nodes",8
+"Uses of the node",Compute
+Vendor,Intel
+Model,"Intel Server System S9248WK1HLC"
+,"(2 x Intel Xeon 9242 Platinum,"
+,"Turbo ON)"
+"CPU Name","Intel Xeon Platinum 9242"
+"CPU(s) orderable","1,2 chips"
+"Chips enabled",2
+"Cores enabled",96
+"Cores per chip",48
+"Threads per core",2
+"CPU Characteristics","Intel Turbo Boost Technology up to 3.8 GHz"
+"CPU MHz",2200
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","1 MB I+D on chip per core"
+"L3 Cache","71.5 MB I+D on chip per chip,"
+,"35.75 MB shared / 24 cores"
+"Other Cache",None
+Memory,"384 GB (24 x 16 GB 2Rx8 DDR4-2993Y-R)"
+"Disk Subsystem",N/A
+"Other Hardware",None
+Adapter,"Intel Omni-Path Edge Switch 100 series"
+"Number of Adapters",2
+"Slot Type","PCI-Express x16"
+"Data Rate","2 x 12.5 GB/s"
+"Ports Used",1
+"Interconnect Type","Intel Omni-Path Fabric 100 series"
+
+SOFTWARE
+
+Adapter,"Intel Omni-Path Edge Switch 100 series"
+"Adapter Driver","IFS 10.9.0.0.210"
+"Adapter Firmware",1.27.0
+"Operating System","Oracle Linux Server release 7.6"
+"Local File System",Linux/xfs
+"Shared File System","Lustre FS 2.10.4"
+"System State",Multi-User
+"Other Software","IBM Platform LSF Standard 9.1.1.1"
+
+
+"Node Description: Lustre FS 2.10.4"
+
+HARDWARE
+
+"Number of nodes",11
+"Uses of the node",Fileserver
+Vendor,Intel
+Model,"Intel Server System R2208GZ4GC4"
+"CPU Name","Intel Xeon E5-2680"
+"CPU(s) orderable","1-2 chips"
+"Chips enabled",2
+"Cores enabled",16
+"Cores per chip",8
+"Threads per core",2
+"CPU Characteristics","Intel Turbo Boost Technology up to 3.5 GHz"
+"CPU MHz",2700
+"Primary Cache","32 KB I + 32 KB D on chip per core"
+"Secondary Cache","2 MB I+D on chip per chip"
+"L3 Cache","20 MB I+D on chip per chip"
+"Other Cache",None
+Memory,"64 GB per node (8*8GB 1600MHz Reg ECC DDR3)"
+"Disk Subsystem","136 TB 3 RAID with 8 SAS/SATA"
+"Other Hardware",None
+Adapter," Intel Omni-Path Fabric Adapter 100 series"
+"Number of Adapters",1
+"Slot Type","PCI-Express x16"
+"Data Rate","12.5 GB/s"
+"Ports Used",1
+"Interconnect Type","Intel Omni-Path Fabric 100 series"
+
+SOFTWARE
+
+Adapter," Intel Omni-Path Fabric Adapter 100 series"
+"Adapter Driver","IFS 10.9.0.0.210"
+"Adapter Firmware",1.27.0
+"Operating System","Redhat Enterprise Linux Server Release 7.6"
+"Local File System",None
+"Shared File System","Lustre FS 2.10.4 2.10.4"
+"System State",Multi-User
+"Other Software",None
+
+
+"Interconnect Description: Intel Omni-Path 100 series"
+
+HARDWARE
+
+Vendor,Intel
+Model,"Intel Omni-Path Fabric 100 series"
+"Switch Model","Intel Omni-Path Edge Switch 100 series"
+"Number of Switches",8
+"Number of Ports",48
+"Data Rate","2 x 12.5 GB/s"
+Firmware,1.27.0
+Topology,"Fat tree"
+"Primary Use","MPI and I/O traffic"
+
+
+"BENCHMARK DETAILS"
+
+"Type of System",Homogeneous
+"Total Compute Nodes",8
+"Total Chips",16
+"Total Cores",768
+"Total Threads",1536
+"Total Memory","3 TB"
+"Base Ranks Run",768
+"Minimum Peak Ranks",--
+"Maximum Peak Ranks",--
+"C Compiler","Intel C++ Composer XE 2019 Update 3 for Linux"
+,"Version 19.0.3.199 20190206"
+"C++ Compiler","Intel C++ Composer XE 2019 Update 3 for Linux"
+,"Version 19.0.3.199 20190206"
+"Fortran Compiler","Intel Fortran Composer 2019 Update 3 for Linux"
+,"Version 19.0.3.199 20190206"
+"Base Pointers",64-bit
+"Peak Pointers",64-bit
+"MPI Library","Intel MPI Library 2018 Update 4 Build 20180823"
+"Other MPI Info",libfabric-1.7.0
+Pre-processors,No
+"Other Software",None
+
+"Submit Notes"
+
+"The config file option 'submit' was used."
+
+"Platform Notes"
+
+" The system used pre-release CPUs running at 2200 MHz instead of the nominal base frequency (2300 MHz)."
+
+"General Notes"
+
+" 130.socorro (base): ""nullify_ptrs"" src.alt was used."
+" 129.tera_tf (base): ""add_rank_support"" src.alt was used."
+" 143.dleslie (base): ""integer_overflow"" src.alt was used."
+
+" MPI startup command:"
+"    mpiexec.hydra command was used to start MPI jobs."
+"    export I_MPI_FABRICS=shm:ofi"
+"    export I_MPI_PIN_DOMAIN=core"
+"    export I_MPI_PIN_ORDER=bunch"
+"    export I_MPI_COMPATIBILITY=3"
+"  HFI driver parameters:"
+"    rcvhdrcnt = 4096"
+" Spectre and Meltdown:"
+"    Yes: The test sponsor attests, as of date of publication, that CVE-2017-5754 (Meltdown)"
+"    is mitigated in the system as tested and documented."
+"    Yes: The test sponsor attests, as of date of publication, that CVE-2017-5753 (Spectre variant 1)"
+"    is mitigated in the system as tested and documented."
+"    Yes: The test sponsor attests, as of date of publication, that CVE-2017-5715 (Spectre variant 2)"
+"    is mitigated in the system as tested and documented."
+
+" Kernel & Microcode:"
+"    Kernel: 3.10.0-957.12.2.el7.crt1.x86_64"
+"    Microcode: 0x4000024"
+" BIOS settings:"
+"    Version: SE5C620.86B.0D.01.0505.050820190224"
+"    Intel Hyper-Threading Technology (SMT) = Enabled (default is Enabled)"
+"    Intel Turbo Boost Technology (Turbo)   = Enabled (default is Enabled)"
+"  Job placement:"
+"    Each MPI job was assigned to a topologically compact set of nodes."
+"  IBM Platform LSF was used for job submission. It has no impact on performance."
+"    Information can be found at: http://www.ibm.com"
+
+"Base Compiler Invocation"
+104.milc," mpiicc"," mpiicc"
+107.leslie3d," mpiifort"," mpiifort"
+113.GemsFDTD," mpiifort"," mpiifort"
+115.fds4," mpiicc"," mpiifort"," mpiifort"
+121.pop2," mpiicc"," mpiifort"," mpiifort"
+122.tachyon," mpiicc"," mpiicc"
+126.lammps," mpiicpc"," mpiicpc"
+127.wrf2," mpiicc"," mpiifort"," mpiifort"
+128.GAPgeofem," mpiicc"," mpiifort"," mpiicc"," mpiifort"
+129.tera_tf," mpiifort"," mpiifort"
+130.socorro," mpiicc"," mpiifort"," mpiifort"
+132.zeusmp2," mpiicc"," mpiifort"," mpiifort"
+137.lu," mpiifort"," mpiifort"
+
+"Base Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2," -DSPEC_MPI_CASE_FLAG"
+122.tachyon
+126.lammps," -DMPICH_IGNORE_CXX_SEEK"
+127.wrf2," -DSPEC_MPI_CASE_FLAG"," -DSPEC_MPI_LINUX"
+128.GAPgeofem
+129.tera_tf
+130.socorro," -assume nostd_intent_in"
+132.zeusmp2
+137.lu
+
+"Base Optimization Flags"
+104.milc," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+107.leslie3d," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+113.GemsFDTD," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+115.fds4," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+121.pop2," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+122.tachyon," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+126.lammps," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+127.wrf2," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+128.GAPgeofem," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+129.tera_tf," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+130.socorro," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+132.zeusmp2," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+137.lu," -O3"," -xCORE-AVX512"," -no-prec-div"," -ipo"
+
+"Base Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Base Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Compiler Invocation"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Portability Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Optimization Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Other Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Forbidden Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+
+"Peak Unknown Flags"
+104.milc
+107.leslie3d
+113.GemsFDTD
+115.fds4
+121.pop2
+122.tachyon
+126.lammps
+127.wrf2
+128.GAPgeofem
+129.tera_tf
+130.socorro
+132.zeusmp2
+137.lu
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2006-2010 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC MPI2007 ","v2.0.1.  Report","generated on ","Wed Jul 31 16:22:19 2019","by SPEC MPI2007 CSV","formatter v1463."
+"Originally published on "," 3 July 2019."
